@@ -1,0 +1,36 @@
+                                          2 TO MANUPULATE THE OPERATIONS ON THE TABLE
+
+
+              UPDATE employees SET last_name = 'Lopez'
+              WHERE employee_id = 101 ;
+
+
+
+           SELECT * FROM TABLE EMPLOYEE;
+
+      | employee_id | first_name  | last_name   | email                             | 
+      +-------------+-------------+-------------+-----------------------------------+
+      |         100 | Steven      | King        | steven.king@sqltutorial.org       | 
+      |         101 | Neena       | lopez       | neena.kochhar@sqltutorial.org     | 
+      |         102 | Lex         | Haan        | lex.de haan@sqltutorial.org       | 
+      |         103 | Alexander   | Hunold      | alexander.hunold@sqltutorial.org  
+      |         104 | Bruce       | Ernst       | bruce.ernst@sqltutorial.org       | 
+      
+    
+
+       DELETE FROM employees WHERE employee_id=103;
+
+      
+       SELECT * FROM TABLE EMPLOYEE;
+
+      
+      
+      | employee_id | first_name  | last_name   | email                             | 
+      +-------------+-------------+-------------+-----------------------------------+
+      |         100 | Steven      | King        | steven.king@sqltutorial.org       | 
+      |         101 | Neena       | lopez       | neena.kochhar@sqltutorial.org     | 
+      |         102 | Lex         | Haan        | lex.de haan@sqltutorial.org       | 
+      
+      |         104 | Bruce       | Ernst       | bruce.ernst@sqltutorial.org       | 
+      
+    
